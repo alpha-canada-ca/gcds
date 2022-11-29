@@ -1,0 +1,122 @@
+# Site settings
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: GTM-KMVB8C2
+author:
+  en: Digital Transformation Office
+  fr: Bureau de la transformation numérique
+baseurl: ""
+description:
+  en: A design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.
+  fr: Système de conception pour offrir aux personnes qui accèdent aux services numériques du gouvernement du Canada une expérience en ligne plus conviviale, cohérente et fiable.
+language:
+  en: English
+  fr: Français
+title:
+  en: Alpha Canada.ca Design System
+  fr: Système de conception du Canada.ca alpha
+urlalt:
+  en: https://alpha.design.canada.ca
+  fr: https://alpha.conception.canada.ca
+thumbs:
+  en: /assets/img/en/blog/thumbnails
+  fr: /assets/img/fr/blogue/vignettes
+webmaster_verifications:
+  google: Nt_CftRIypA9xVS7Znb2VkrsYbtIDuFWHryxSAC6OwM
+
+# Files excluded from Jekyll builds
+exclude:
+- .editorconfig
+- .jekyll-cache
+- .gitignore
+- .github
+- "*.gpg"
+- "*.tmp"
+- CODE_OF_CONDUCT.md
+- config.ini.gpg
+- CONTRIBUTING.md
+- CNAME
+- diagrams/
+- docker/
+- gcweb-jekyll.gemspec
+- Gemfile
+- Gemfile.lock
+- kubernetes/
+- LICENSE*
+- node_modules
+- screenshot.png
+- SECURITY.md
+- src/
+- README.md
+- vendor/*
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+# Jekyll settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      indexed: true
+      layout: default #temporary
+      pageclass: "cnt-wdth-lmtd"
+  -
+    scope:
+      path: "*/en/"
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "*/fr/"
+    values:
+      lang: "fr"
+  -
+    scope:
+      path: "_posts/en/"
+      type: "posts"
+    values:
+      breadcrumbs:
+      - title: "About Canada.ca"
+        link:  "https://www.canada.ca/en/government/about.html"
+      - title: "Canada.ca design system"
+        link: "https://design.canada.ca"
+      - title: Canada.ca blog
+        link: "./blog/"
+        type: "Blog"
+      categories:
+        - "en"
+        - "blog"
+  -
+    scope:
+      path: "_pages/fr/"
+      type: "pages"
+    values:
+      breadcrumbs:
+      - title: "A propos de Canada.ca"
+        link:  "https://www.canada.ca/fr/gouvernement/a-propos.html"
+  -
+    scope:
+      path: "_posts/fr/"
+      type: "posts"
+    values:
+      breadcrumbs:
+      - title: "A propos de Canada.ca"
+        link:  "https://www.canada.ca/fr/gouvernement/a-propos.html"
+      - title: Systême de conception numérique du Canada.ca
+        link: "https://conception.canada.ca"
+      - title: Blogue de Canada.ca
+        link: "./blogue/"
+        type: "Blog"
+      categories:
+      - "fr"
+      - "blogue"
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: wet-boew/gcweb-jekyll
