@@ -6,11 +6,11 @@ media_folder: 'assets/img/uploads'
 collections:
   - create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Alternative language link", name: "altLangPage", widget: "string"}
       - {label: "Description", name: "description", widget: "string" }
       - {label: "Publish date", name: "date", widget: "datetime"}
       - {label: "Modified date", name: "dateModified", widget: "datetime"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -23,11 +23,11 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   - create: true
     fields:
-      - {label: "Format", name: "layout", widget: "hidden", default: "post"}
       - {label: "Lien vers la langue alternative", name: "altLangPage", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date de publication", name: "date", widget: "datetime"}
-      - {label: "Date modifié", name: "dateModified", widget: "datetime"}
+      - {label: "Date modifiée", name: "dateModified", widget: "datetime"}
+      - {label: "Format", name: "layout", widget: "hidden", default: "default"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Image sélectionnée", name: "thumbnail", widget: "image"}
       - {label: "Coprs de texte", name: "body", widget: "markdown"}
