@@ -1,43 +1,29 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 media_folder: 'assets/img/uploads'
 logo_url: https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/sig-blk-en.svg
 local_backend: true
 publish_mode: editorial_workflow
 
+i18n:
+  structure: multiple_folders
+  locales: [en, fr]
+  default_locale: en
+
 collections:
-  - create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
-      - {label: "Alternative language link", name: "altLangPage", widget: "string"}
-      - {label: "Description", name: "description", widget: "string" }
-      - {label: "Publish date", name: "date", widget: "datetime"}
-      - {label: "Modified date", name: "dateModified", widget: "datetime"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Featured image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    filter:
-      field: language
-      value: en
-    folder: "_posts/en/" # The path to the folder where the documents are stored
-    label: "Post" # Used in the UI
-    name: "blog" # Used in routes, e.g., /admin/collections/blog
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   - create: true
     fields:
-      - {label: "Lien vers la langue alternative", name: "altLangPage", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Date de publication", name: "date", widget: "datetime"}
-      - {label: "Date modifiée", name: "dateModified", widget: "datetime"}
-      - {label: "Format", name: "layout", widget: "hidden", default: "default"}
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Image sélectionnée", name: "thumbnail", widget: "image"}
-      - {label: "Coprs de texte", name: "body", widget: "markdown"}
-    filter:
-      field: language
-      value: fr
-    folder: "_posts/fr/"
-    label: "Article"
-    name: "blogue"
+      - { label: "Alternative language link", name: "altLangPage", widget: "string" }
+      - { label: "Description", name: "description", widget: "string"  }
+      - { label: "Publish date", name: "date", widget: "datetime" }
+      - { label: "Modified date", name: "dateModified", widget: "datetime" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Featured image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+    folder: "_posts/"
+    i18n: true
+    label: "Posts"
+    name: "posts"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
