@@ -1,0 +1,23 @@
+{
+  "name": "gcds",
+  "version": "1.0.0",
+  "description": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) [![Netlify Status](https://api.netlify.com/api/v1/badges/6c4e8c92-368a-40ea-8390-a32560289da9/deploy-status)](https://app.netlify.com/sites/canada-ca-alpha/deploys) ([Français](#systeme-de-conception-du-canada-ca-alpha))",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpha-canada-ca/gcds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alpha-canada-ca/gcds/issues"
+  },
+  "homepage": "https://github.com/alpha-canada-ca/gcds#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
