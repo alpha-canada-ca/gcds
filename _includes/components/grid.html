@@ -1,0 +1,8 @@
+<section class="gc-srvinfo">
+  <h2 class="wb-inv">{{ blok.title }}</h2>
+  <div class="row wb-eqht gc-drmt">
+  {% for blok in blok.columns %}
+    {% include components/{{ blok.component }}.html blok=blok %}
+  {% endfor %}
+  </div>
+</section>

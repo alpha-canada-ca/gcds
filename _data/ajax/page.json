@@ -1,0 +1,221 @@
+{
+    "indexed": true,
+    "layout": "default",
+    "pageclass": "cnt-wdth-lmtd",
+    "script": "https://app.storyblok.com/f/storyblok-latest.js",
+    "story": {
+        "name": "Canada.ca Design System",
+        "created_at": "2023-01-05T12:21:44.195Z",
+        "published_at": "2023-01-05T18:06:53.933Z",
+        "id": 243022912,
+        "uuid": "4737a92f-4c0d-45aa-b503-cdaf0cc3d432",
+        "content": {
+            "_uid": "c6e34a9d-671c-4234-ba2c-2696860a9347",
+            "body": [
+                {
+                    "_uid": "7e58e693-63dd-46a8-8abf-d53f4f241fbc",
+                    "headline": "Use this design system to provide a more usable, consistent and trustworthy online experience for people who access Government of Canada digital services.",
+                    "component": "teaser",
+                    "_editable": ""
+                },
+                {
+                    "_uid": "0b6bbd2a-43f3-43cd-9905-adb5e89a42d0",
+                    "columns": [
+                        {
+                            "_uid": "81b271c6-091a-4956-b20b-92d06458088d",
+                            "link": {
+                                "id": "4826df7b-2ca5-4371-b2dd-2eec1597cd70",
+                                "url": "",
+                                "linktype": "story",
+                                "fieldtype": "multilink",
+                                "cached_url": "template-and-pattern-library-for-canada-ca"
+                            },
+                            "title": "Template and pattern library for Canada.ca",
+                            "component": "doormat",
+                            "description": "List of templates and patterns for used on Canada.ca",
+                            "_editable": ""
+                        },
+                        {
+                            "_uid": "9f2a41f6-0100-4395-88d7-0933e85f5594",
+                            "link": {
+                                "id": "a0db2329-12b5-4b00-b1a6-7287a6b54ab4",
+                                "url": "",
+                                "linktype": "story",
+                                "fieldtype": "multilink",
+                                "cached_url": "blog"
+                            },
+                            "title": "Canada.ca digital design blog",
+                            "component": "doormat",
+                            "description": "Evidence and insights from the Canada.ca team.",
+                            "_editable": ""
+                        },
+                        {
+                            "_uid": "837b92ff-672f-43e2-a406-a0fa03ffe7b7",
+                            "link": {
+                                "id": "4826df7b-2ca5-4371-b2dd-2eec1597cd70",
+                                "url": "",
+                                "linktype": "story",
+                                "fieldtype": "multilink",
+                                "cached_url": "template-and-pattern-library-for-canada-ca"
+                            },
+                            "title": "Fake doormat",
+                            "component": "doormat",
+                            "description": "This is just a tes",
+                            "_editable": ""
+                        }
+                    ],
+                    "component": "grid",
+                    "_editable": ""
+                },
+                {
+                    "_uid": "7ff6f1d4-fd59-45d4-b96f-bd84d3116c16",
+                    "Title": "Find guidance",
+                    "title": "Find guidance",
+                    "component": "guidance-table",
+                    "datatable": {
+                        "tbody": [
+                            {
+                                "_uid": "c86f6dfe-d0a8-40a3-ab3e-7390665d98ef",
+                                "body": [
+                                    {
+                                        "_uid": "eb92dec2-9790-4c2c-8889-73555aabe929",
+                                        "value": "Data name 1",
+                                        "component": "_table_col",
+                                        "_editable": ""
+                                    },
+                                    {
+                                        "_uid": "b33054c0-5ebe-4c85-941c-d25f4d5a60d7",
+                                        "value": "Data source 1",
+                                        "component": "_table_col",
+                                        "_editable": ""
+                                    },
+                                    {
+                                        "_uid": "8dbd64ed-e20e-4eb0-8ce0-e366dfbffd44",
+                                        "value": "Data destination 1",
+                                        "component": "_table_col",
+                                        "_editable": ""
+                                    }
+                                ],
+                                "component": "_table_row",
+                                "_editable": ""
+                            },
+                            {
+                                "_uid": "9b8a3435-8b2c-4b90-a838-2c3b47d94e45",
+                                "body": [
+                                    {
+                                        "_uid": "cb3cbdde-bf9f-46f2-9a6d-d599c1e81aa6",
+                                        "value": "Data name 2",
+                                        "component": "_table_col",
+                                        "_editable": ""
+                                    },
+                                    {
+                                        "_uid": "6c8afd66-2430-4196-bb71-a0223615245b",
+                                        "value": "Data source 2",
+                                        "component": "_table_col",
+                                        "_editable": ""
+                                    },
+                                    {
+                                        "_uid": "b5394b9a-d818-41d6-9651-6cb64f305fdf",
+                                        "value": "Data destination 2",
+                                        "component": "_table_col",
+                                        "_editable": ""
+                                    }
+                                ],
+                                "component": "_table_row",
+                                "_editable": ""
+                            }
+                        ],
+                        "thead": [
+                            {
+                                "_uid": "0e0fb375-f7c4-44c1-82a5-22c12b0db9fa",
+                                "value": "Name",
+                                "component": "_table_head",
+                                "_editable": ""
+                            },
+                            {
+                                "_uid": "577227a2-b41a-4bb8-a4fd-978533e880d2",
+                                "value": "Source",
+                                "component": "_table_head",
+                                "_editable": ""
+                            },
+                            {
+                                "_uid": "f8c419ea-42b8-4a40-b605-a9174fa61147",
+                                "value": "Destination",
+                                "component": "_table_head",
+                                "_editable": ""
+                            }
+                        ],
+                        "fieldtype": "table"
+                    },
+                    "_editable": ""
+                }
+            ],
+            "component": "page",
+            "_editable": ""
+        },
+        "slug": "home",
+        "full_slug": "home",
+        "sort_by_date": null,
+        "position": 0,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 0,
+        "meta_data": null,
+        "group_id": "0f6f87a2-4e0a-4519-8cc9-7684190ce8ab",
+        "first_published_at": "2023-01-05T18:06:53.933Z",
+        "release_id": null,
+        "lang": "default",
+        "path": null,
+        "alternates": [],
+        "default_full_slug": null,
+        "translated_slugs": null
+    },
+    "title": "Canada.ca Design System",
+    "links": {
+        "4826df7b-2ca5-4371-b2dd-2eec1597cd70": {
+            "id": 243719539,
+            "slug": "template-and-pattern-library-for-canada-ca",
+            "name": "Template and pattern library for Canada.ca",
+            "is_folder": false,
+            "parent_id": null,
+            "published": false,
+            "path": null,
+            "position": -10,
+            "uuid": "4826df7b-2ca5-4371-b2dd-2eec1597cd70",
+            "is_startpage": false,
+            "real_path": "/template-and-pattern-library-for-canada-ca"
+        },
+        "a0db2329-12b5-4b00-b1a6-7287a6b54ab4": {
+            "id": 243688622,
+            "slug": "blog",
+            "name": "Canada.ca digital design blog",
+            "is_folder": false,
+            "parent_id": null,
+            "published": true,
+            "path": null,
+            "position": 0,
+            "uuid": "a0db2329-12b5-4b00-b1a6-7287a6b54ab4",
+            "is_startpage": false,
+            "real_path": "/blog"
+        },
+        "4737a92f-4c0d-45aa-b503-cdaf0cc3d432": {
+            "id": 243022912,
+            "slug": "home",
+            "name": "Canada.ca Design System",
+            "is_folder": false,
+            "parent_id": 0,
+            "published": true,
+            "path": null,
+            "position": 0,
+            "uuid": "4737a92f-4c0d-45aa-b503-cdaf0cc3d432",
+            "is_startpage": false,
+            "real_path": "/home"
+        }
+    },
+    "content": "{{ page.story.content._editable }}\n\n{% include components/debugger.html variable=page %}\n{% for blok in page.story.content.body %}\n{% include components/{{ blok.component }}.html blok=blok %}\n{% endfor %}\n",
+    "dir":"/",
+    "excerpt":null,
+    "name":"index.html",
+    "path":"index.html",
+    "url":"/"
+}

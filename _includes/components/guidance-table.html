@@ -1,0 +1,20 @@
+
+<h2>{{ blok.title }}</h2>
+<table class="wb-tables table table-striped" data-wb-tables='{ "paging": true, "info": true  }'>
+    <thead>
+        <tr>
+            {%- for th in blok.datatable.thead -%}
+            <th>{{ th.value }}</th>
+            {% endfor -%}
+        </tr>
+    </thead>
+    <tbody>
+        {%- for tr in blok.datatable.tbody -%}
+        <tr>
+            {%- for td in tr.body -%}
+            <td>{{ td.value }}</td>
+            {%- endfor -%}
+        </tr>
+        {%- endfor -%}
+    </tbody>
+</table>

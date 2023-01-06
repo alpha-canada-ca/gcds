@@ -1,0 +1,58 @@
+{
+   "story": {
+      "name": "Présentation du bouton contextuel « Se connecter »",
+      "created_at": "2023-01-19T14:50:02.192Z",
+      "published_at": "2023-01-19T14:58:03.250Z",
+      "id": 249499179,
+      "uuid": "c40076f1-4a31-40bb-8eaf-f78ede45ce09",
+      "content": {
+         "Date": "2022-09-23 12:00",
+         "_uid": "c16af42f-d2e0-4f06-9814-6aeda06a397e",
+         "Title": "Présentation du bouton contextuel « Se connecter » :",
+         "author": "6e766d60-f1b3-4db0-98b6-fb0884e9d66f",
+         "Content": "Chaque jour, plus d’un million de visiteurs visitent le site Canada.ca afin d’accéder aux services gouvernementaux. Pour bon nombre de ces services, les utilisateurs doivent se connecter à un compte gouvernemental authentifié.\n\nAfin d’améliorer la repérabilité de cette importante tâche principale, la composante d’en-tête générale du site Canada.ca inclut désormais l’option d’ajouter un bouton contextuel \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo; sur les pages où les gens cherchent probablement à se connecter à un compte.\n\n[Bouton contextuel \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo; – modèle de conception de Canada.ca](https://conception.canada.ca/configurations-conception-communes/connexion-contextuel.html)\n\n\u003e \u0026laquo;\u0026nbsp;Il est essentiel de faciliter l’expérience d’ouverture de session des utilisateurs et d’améliorer l’expérience globale de bout en bout de l’accès aux services gouvernementaux pour s’assurer que les besoins des utilisateurs sont au premier plan de la transformation numérique du gouvernement du Canada.\u0026nbsp;\u0026raquo; - [Ambition numérique du Canada 2022](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/plans-strategiques-operations-numeriques-gouvernement-canada/ambition-numerique-canada.html)\n\n## Placement uniforme pour une meilleure repérabilité\n\nSur les pages qui incluent le bouton \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo;, le placement uniforme dans l’en-tête crée un effet d’apprentissage. Au fur et à mesure que plus de programmes et de services utilisent cette composante, les utilisateurs commenceront à reconnaître sur une page où ils peuvent s’attendre à trouver le point d’accès au ou aux comptes associés au contenu qu’ils lisent. L’amélioration de la repérabilité est une première étape en vue d’améliorer la réussite des tâches.\n\n{% include components/gc-complex-img.html\n   alt=\"Une longue description peut être trouvée après l'image.\"\n   file=\"2022-09-23-se-connecter-01.png\"\n   caption=\"\"\n   summary=\"Description détaillée\"\n   content=\"\u003cp\u003eLe bouton Se connecter apparaît dans le coin supérieur droit de l'écran, sous la ligne de séparation qui sépare la signature du gouvernement du Canada, le lien pour changer de langue et la barre de recherche du fil d'Ariane et du contenu de la page.\u003c/p\u003e\"\n%}\n\n## Étiquette uniforme\u0026nbsp;: \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo;, et non \u0026laquo;\u0026nbsp;Ouvrir une session\u0026nbsp;\u0026raquo;\n\nIl existe plus de 50 comptes distincts du gouvernement du Canada qui exigent que les gens s’inscrivent et se connectent pour accéder à leurs données. La terminologie compte. Une approche normalisée de l’étiquetage améliore à la fois la reconnaissance et la clarté.\n\nEn 2018, le Bureau de la dirigeante principale de l’information du Secrétariat du Conseil du Trésor du Canada a pris la décision d’utiliser l’étiquette \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo; afin d’accéder aux services authentifiés de la CléGC et du partenaire de connexion.\n\nCette décision était fondée sur les facteurs suivants\u0026nbsp;:\n1.  Usage\u0026nbsp;: L’analyse a révélé que plus de comptes sur le site Canada.ca utilisent l’étiquette \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo; pour leurs interactions authentifiées, y compris certains des comptes les plus utilisés de l’Agence, d’IRCC et de Service Canada, de sorte que de nombreuses personnes connaissent déjà cette étiquette et la recherchent.\n2.  Appel à l’action\u0026nbsp;: L’utilisation d’un verbe pour lancer une action améliore la réussite de la tâche.\n    -  En anglais, \u0026laquo;\u0026nbsp;sign in\u0026nbsp;\u0026raquo; utilise un verbe, tandis que \u0026laquo;\u0026nbsp;login\u0026nbsp;\u0026raquo; est un nom.\n    -  En français, \u0026laquo;\u0026nbsp;se connecter\u0026nbsp;\u0026raquo; est un verbe, tandis que \u0026laquo;\u0026nbsp;connexion\u0026nbsp;\u0026raquo; est un nom.\n\nEn outre, lors de l’examen de la terminologie des services authentifiés, il est important de noter que \u0026laquo;\u0026nbsp;S’inscrire\u0026nbsp;\u0026raquo; est l’étiquette standard pour la configuration d’un compte (et en anglais \u0026laquo;\u0026nbsp;Register\u0026nbsp;\u0026raquo; au lieu de \u0026laquo;\u0026nbsp;Sign up\u0026nbsp;\u0026raquo; puisque « Sign up » ressemble trop à « Sign in »). Il est préférable que les termes soient bien distincts pour éviter toute confusion possible.\n\n## Quand personnaliser l’étiquette du bouton\n\nEn mode d’affichage pour appareil mobile, nous vous recommandons d’utiliser l’étiquette générique \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo;. Elle s'affiche ainsi sur une seule ligne même si l’écran est petit.\n\nPour les écrans moyens et grands, le champ d’étiquette permet jusqu’à 25 caractères. Dans ces formats, vous pouvez personnaliser l’étiquette avec un texte descriptif supplémentaire comme \u0026laquo;\u0026nbsp;Se connecter à [nom du compte]\u0026nbsp;\u0026raquo;, si le fait d’être plus précis fonctionne mieux dans le contexte de la page.\n\nSi vous ajoutez le bouton sur une page où il peut y avoir plusieurs comptes auxquels une personne pourrait vouloir se connecter, il peut être judicieux d’utiliser le libellé générique \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo; pour diriger les personnes vers une page de sélection. L’en-tête d’une page de sélection ne doit pas inclure la composante du bouton \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo;. Au lieu de cela, le corps de la page doit fournir un accès à chacun des comptes concernés.\n\nUne fois que vous avez ajouté le bouton \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo; sur une page ou un groupe de pages, observez les tendances du trafic et les commentaires afin de mieux comprendre l’utilisation de la page. Vous pouvez ainsi avoir des indices à savoir quand personnaliser l’étiquette ou à quel endroit le bouton peut être plus ou moins efficace.\n\n## Mot de la fin\n\nLe site Canada.ca est la source permettant aux Canadiens d’accéder aux services du gouvernement du Canada. Tout le monde a besoin d’une orientation claire pour réussir ses tâches.\n\nLorsque nous utilisons une terminologie uniforme dans l’ensemble de l’écosystème, cela donne aux gens l’assurance qu’ils sont sur la bonne voie. Une confiance améliorée renforce la fiabilité et offre une meilleure expérience globale aux utilisateurs. Voilà pourquoi nous devons, en tant que concepteurs de contenu, être attentifs aux moindres détails, jusqu’au texte de l’étiquette des boutons.\n\n## Pour en savoir davantage\n-   [Choisir le bon bouton pour la réussite des tâches](https://blogue.canada.ca/2020/12/17/choisir-des-boutons)\n-   [Bouton contextuel «\u0026nbsp;Se connecter\u0026nbsp;» – modèle de conception de Canada.ca](https://conception.canada.ca/configurations-conception-communes/connexion-contextuel.html)\n-   [GCWeb (BOEW)\u0026nbsp;: Modèles d'authentification](https://wet-boew.github.io/GCWeb/sites/authentication/authentication-fr.html)\n-   [Ask a UXpert: Why is consistency important in design?](https://www.youtube.com/watch?v=UHUluiMe0cA) (en anglais seulement)\n-   [Ligne directrice sur la définition des exigences en matière d’authentification](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=26262)\n-   [Étude sur les étiquettes\u0026nbsp;: quels mots fonctionnent le mieux](https://blogue.canada.ca/2020/10/02/etude-sur-les-etiquettes)",
+         "Thumbnail": {
+            "id": 6928509,
+            "alt": "Vignette de l'article Présentation du bouton contextuel « Se connecter » :",
+            "name": "",
+            "focus": "",
+            "title": "",
+            "filename": "https://a.storyblok.com/f/192052/1603x740/ac52a042b5/2022-09-23-fr.png",
+            "copyright": "",
+            "fieldtype": "asset",
+            "is_external_url": false
+         },
+         "component": "post",
+         "Description": "Afin d’améliorer la repérabilité de cette importante tâche principale, la composante d’en-tête générale du site Canada.ca inclut désormais l’option d’ajouter un bouton contextuel \u0026laquo;\u0026nbsp;Se connecter\u0026nbsp;\u0026raquo; sur les pages où les gens cherchent probablement à se connecter à un compte."
+      },
+      "slug": "presentation-du-bouton-contextuel-se-connecter",
+      "full_slug": "fr/blogue/articles/presentation-du-bouton-contextuel-se-connecter",
+      "sort_by_date": "2022-09-23",
+      "position": 0,
+      "tag_list": [],
+      "is_startpage": false,
+      "parent_id": 249506110,
+      "meta_data": null,
+      "group_id": "e1c09efd-c3a7-4c5b-8761-3fd19cd2c480",
+      "first_published_at": "2023-01-19T14:56:56.028Z",
+      "release_id": null,
+      "lang": "default",
+      "path": "",
+      "alternates": [
+         {
+            "id": 248849969,
+            "name": "Introducing the contextual Sign in button",
+            "slug": "introducing-the-contextual-sign-in-button",
+            "published": true,
+            "full_slug": "en/blog/posts/introducing-the-contextual-sign-in-button",
+            "is_folder": false,
+            "parent_id": 248849962
+         }
+      ],
+      "default_full_slug": null,
+      "translated_slugs": null
+   },
+   "cv": 1674143328,
+   "rels": [],
+   "links": []
+}

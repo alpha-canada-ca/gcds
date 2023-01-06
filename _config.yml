@@ -31,10 +31,13 @@ exclude:
 - .jekyll-cache
 - .gitignore
 - .github
+- .github/
+- .ruby-version
 - "*.gpg"
 - "*.tmp"
 - CODE_OF_CONDUCT.md
 - config.ini.gpg
+- config.ru
 - CONTRIBUTING.md
 - CNAME
 - diagrams/
@@ -44,7 +47,8 @@ exclude:
 - Gemfile.lock
 - kubernetes/
 - LICENSE*
-- node_modules
+- localhost*.pem
+- node_modules/
 - screenshot.png
 - SECURITY.md
 - src/
@@ -120,3 +124,9 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: wet-boew/gcweb-jekyll
+
+# Settings for your Storyblok space
+storyblok:
+  token:   "yie7ugfYaCoGYDqtxW5yOgtt"
+  # Can be either `draft` or `published`
+  version: draft

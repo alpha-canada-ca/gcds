@@ -1,0 +1,10 @@
+---
+layout: default
+script: https://app.storyblok.com/f/storyblok-latest.js
+---
+{{ page.story.content._editable }} 
+<div class="root">
+    {% for blok in page.story.content.body %}
+        {% include components/{{ blok.component }}.html blok=blok %}
+    {% endfor %}
+</div>
